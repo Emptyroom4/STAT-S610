@@ -1,7 +1,7 @@
 
 #Q2_main test
 #Hyeseon Seo
-
+source("Desktop/Intro_Computing/HW8/main/hw8_q2_main.R")
 set.seed(1234567890)
 
 test_that('ks_test', {
