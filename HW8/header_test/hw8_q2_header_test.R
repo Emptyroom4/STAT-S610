@@ -1,5 +1,6 @@
 #Q2 header_test
 #Hyeseon Seo
+source("Desktop/Intro_Computing/HW8/header/hw8_q2_header.R")
 
 test_that('when envelope_constant is missing', {
   n3 = rejection_sampling(100, dnorm, function(x) 1/2*exp(-abs(x)), function(n) rexp(n,1)*(2*rbinom(n,1,0.5)-1))
