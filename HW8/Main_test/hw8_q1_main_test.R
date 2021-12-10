@@ -1,3 +1,6 @@
+source("Desktop/Intro_Computing/HW8/main/hw8_q1_main.R")
+source("Desktop/Intro_Computing/HW8/header/hw8_q1_header.R")
+
 library(testthat)
 
 #Q1.
